@@ -10,11 +10,10 @@ const limiter = require("./middleware/rateLimiter");
 const logger = require("./utils/logger");
 
 // Startup Environment Validation
-const requiredEnv = ["MONGO_URI", "JWT_SECRET", "OPENAI_API_KEY"];
-requiredEnv.forEach((env) => {
+const criticalEnv = ["MONGO_URI", "JWT_SECRET"];
+criticalEnv.forEach((env) => {
     if (!process.env[env]) {
-        logger.error(`Critical Error: Missing environment variable ${env}`);
-        process.exit(1);
+        logger.error(`Critical Warning: Missing environment variable ${env}`);
     }
 });
 
