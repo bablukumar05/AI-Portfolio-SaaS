@@ -26,7 +26,8 @@ const seedDatabase = async () => {
         password: hashedPassword,
         role: "user",
         bio: "Senior Full Stack Engineer specializing in AI & React",
-        profileViews: 1245
+        profileViews: 1245,
+        isVerified: true
       });
       await user.save();
       console.log(`Created new user: ${email} (Password: ${password})`);

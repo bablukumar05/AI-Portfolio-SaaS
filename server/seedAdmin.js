@@ -21,7 +21,8 @@ const seedAdmin = async () => {
             name: "Super Admin",
             email: 'kumarbablu74824@gmail.com',
             password: hashed,
-            role: 'admin'
+            role: 'admin',
+            isVerified: true
         });
 
         await adminUser.save();
