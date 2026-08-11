@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install",
+    "build": "npm ci || npm install",
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
