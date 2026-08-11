@@ -2,11 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "scripts": {
+    "build": "npm install --force",
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "engines": {
-    "node": ">=18.0.0 <23.0.0"
+    "node": "20.x"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
