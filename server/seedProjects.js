@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
 const User = require('./models/User');
 const Project = require('./models/Project');
+require('dotenv').config();
 
 const seedProjects = async () => {
     try {
-        await mongoose.connect('mongodb://127.0.0.1:27017/portfolioDB');
+        await mongoose.connect(process.env.MONGO_URI);
 
         const admin = await User.findOne({ email: 'kumarbablu74824@gmail.com' });
         if (!admin) {

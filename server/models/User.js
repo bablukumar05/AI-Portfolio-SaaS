@@ -31,7 +31,7 @@ const UserSchema = new mongoose.Schema(
       ip: { type: String },
       timestamp: { type: Date, default: Date.now }
     }],
-    referralToken: { type: String, unique: true },
+    referralToken: { type: String, unique: true, sparse: true },
     referredBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" }
   },
   { timestamps: true }

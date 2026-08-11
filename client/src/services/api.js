@@ -15,7 +15,7 @@ API.interceptors.request.use((config) => {
 API.interceptors.response.use(
   response => response,
   error => {
-    if (error.response && error.response.status === 401) {
+    if (error.response && (error.response.status === 401 || (error.response.status === 404 && error.response.data?.message?.includes("User not found")))) {
       localStorage.removeItem("token");
       
       // Only force redirect if they are actively using protected modules
