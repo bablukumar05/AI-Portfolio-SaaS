@@ -1,4 +1,4 @@
-const useragent = require("useragent");
+const { UAParser } = require("ua-parser-js");
 const axios = require("axios");
 const Analytics = require("../models/Analytics");
 const Portfolio = require("../models/Portfolio");
@@ -13,14 +13,16 @@ const trackVisitor = async (req, res, next) => {
         const portfolio = await Portfolio.findById(req.params.portfolioId);
         if (!portfolio) return next();
 
-        const agent = useragent.parse(req.headers["user-agent"]);
-        const ip = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+        const uaString = req.headers["user-agent"] || "";
+        const parser = new UAParser(uaString);
+        const agent = parser.getResult();
+        const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
         const referer = req.headers["referer"] || "Direct";
 
         // Basic Device Type Detection
         let deviceType = "desktop";
-        if (/mobile/i.test(req.headers["user-agent"])) deviceType = "mobile";
-        if (/tablet/i.test(req.headers["user-agent"])) deviceType = "tablet";
+        if (/mobile/i.test(uaString)) deviceType = "mobile";
+        if (/tablet/i.test(uaString)) deviceType = "tablet";
 
         // Optional: Get Location from IP (using a free API for now)
         // Note: In production, use a local DB like GeoIP for speed
@@ -40,8 +42,8 @@ const trackVisitor = async (req, res, next) => {
             country,
             device: {
                 type: deviceType,
-                browser: agent.family,
-                os: agent.os.family
+                browser: agent.browser.name || "Unknown",
+                os: agent.os.name || "Unknown"
             },
             source: referer,
             path: req.originalUrl
