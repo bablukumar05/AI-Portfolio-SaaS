@@ -4,27 +4,90 @@
 
 @layer utilities {
   .glass {
-    @apply bg-dark-800/60 backdrop-blur-md border border-white/10 shadow-xl;
+    @apply bg-white/70 dark:bg-dark-800/60 backdrop-blur-md border border-black/5 dark:border-white/10 shadow-xl;
   }
+
   .glass-card {
-    @apply bg-dark-800/40 backdrop-blur-lg border border-white/5 rounded-2xl shadow-2xl;
+    @apply bg-white/50 dark:bg-dark-800/40 backdrop-blur-lg border border-black/5 dark:border-white/5 rounded-2xl shadow-2xl;
   }
+
   .glass-hover {
-    @apply hover:bg-dark-800/80 hover:border-primary/50 transition-all duration-300;
+    @apply hover:bg-white/80 dark:hover:bg-dark-800/80 hover:border-primary/50 transition-all duration-300;
   }
+
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
   }
 }
 
-html {
+:root {
+  /* Default Cyberpunk Theme */
+  --color-dark-900: 11 12 16;
+  --color-dark-800: 31 40 51;
+  --color-primary: 102 252 241;
+  --color-secondary: 69 162 158;
+  --color-text-muted: 197 198 199;
+}
+
+.theme-cyberpunk {
+  --color-dark-900: 11 12 16;
+  --color-dark-800: 31 40 51;
+  --color-primary: 102 252 241;
+  --color-secondary: 69 162 158;
+  --color-text-muted: 197 198 199;
+}
+
+.theme-minimal {
+  --color-dark-900: 0 0 0;
+  --color-dark-800: 17 17 17;
+  --color-primary: 255 255 255;
+  --color-secondary: 136 136 136;
+  --color-text-muted: 102 102 102;
+}
+
+.theme-sunset {
+  --color-dark-900: 26 15 20;
+  --color-dark-800: 45 27 46;
+  --color-primary: 255 126 103;
+  --color-secondary: 243 198 143;
+  --color-text-muted: 212 165 177;
+}
+
+.theme-hacker {
+  --color-dark-900: 0 0 0;
+  --color-dark-800: 10 25 15;
+  --color-primary: 0 255 65;
+  --color-secondary: 0 143 17;
+  --color-text-muted: 0 179 44;
+}
+
+html, body {
+  position: relative;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #0b0c10;
-  background-image: radial-gradient(circle at 15% 50%, rgba(102, 252, 241, 0.05), transparent 25%),
-                    radial-gradient(circle at 85% 30%, rgba(69, 162, 158, 0.08), transparent 25%);
+  @apply bg-[#f8fafc] text-slate-800 dark:bg-dark-900 dark:text-textMuted transition-colors duration-500 font-sans antialiased;
+  background-image:
+    radial-gradient(circle at 15% 50%, rgba(var(--color-primary) / 0.05), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(var(--color-secondary) / 0.08), transparent 25%),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2364748b' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
-  color: #c5c6c7;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 dark:bg-[#0b0c10];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-dark-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
 }

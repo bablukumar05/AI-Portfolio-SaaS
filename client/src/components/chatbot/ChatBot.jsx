@@ -20,18 +20,93 @@ export default function ChatBot() {
     e?.preventDefault();
     if (!msg.trim()) return;
 
-    const newChat = [...chat, { user: msg }];
-    setChat(newChat);
+    const currentMsg = msg;
     setMsg("");
+    
+    // Format history for OpenAI
+    const messages = chat.map(c => 
+      c.user ? { role: "user", content: c.user } : { role: "assistant", content: c.bot }
+    );
+    // Add system prompt to ensure concise answers
+    messages.unshift({ role: "system", content: "You are a helpful AI assistant on a portfolio website. Give only the direct reply to the user's question, without any extra conversational filler." });
+    
+    messages.push({ role: "user", content: currentMsg });
+
+    setChat(prev => [...prev, { user: currentMsg }]);
     setIsLoading(true);
 
+    // Initialize empty bot response
+    setChat(prev => [...prev, { bot: "" }]);
+
     try {
-      // Assuming a valid mock or real AI response endpoint
-      const res = await API.post("/chat", { message: msg });
-      setChat([...newChat, { bot: res.data.reply || "I received your message!" }]);
+      const token = localStorage.getItem("token");
+      const headers = { "Content-Type": "application/json" };
+      if (token) headers["Authorization"] = token;
+
+      const response = await fetch((import.meta.env.VITE_API_URL || "http://localhost:5000/api") + "/chat", {
+        method: "POST",
+        headers,
+        body: JSON.stringify({ messages })
+      });
+
+      if (!response.ok) throw new Error("Network response was not ok");
+      
+      setIsLoading(false);
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder("utf-8");
+      
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        const chunk = decoder.decode(value, { stream: true });
+        const lines = chunk.split("\n").filter(line => line.trim() !== "");
+
+        for (const line of lines) {
+          if (line.startsWith("data: ")) {
+            const dataStr = line.replace("data: ", "");
+            if (dataStr === "[DONE]") break;
+
+            try {
+              const parsed = JSON.parse(dataStr);
+              if (parsed.text) {
+                setChat(prev => {
+                  const updatedChat = [...prev];
+                  const lastIndex = updatedChat.length - 1;
+                  updatedChat[lastIndex] = {
+                    ...updatedChat[lastIndex],
+                    bot: updatedChat[lastIndex].bot + parsed.text
+                  };
+                  return updatedChat;
+                });
+              } else if (parsed.error) {
+                setChat(prev => {
+                  const updatedChat = [...prev];
+                  const lastIndex = updatedChat.length - 1;
+                  updatedChat[lastIndex] = {
+                    ...updatedChat[lastIndex],
+                    bot: "Error: " + parsed.error
+                  };
+                  return updatedChat;
+                });
+              }
+            } catch (err) {
+              // Ignore partial JSON parsing errors
+            }
+          }
+        }
+      }
     } catch {
-      setChat([...newChat, { bot: "Sorry, I am having trouble connecting right now." }]);
-    } finally {
+      setChat(prev => {
+        const updatedChat = [...prev];
+        const lastIndex = updatedChat.length - 1;
+        updatedChat[lastIndex] = {
+          ...updatedChat[lastIndex],
+          bot: "Sorry, I am having trouble connecting right now."
+        };
+        return updatedChat;
+      });
       setIsLoading(false);
     }
   };

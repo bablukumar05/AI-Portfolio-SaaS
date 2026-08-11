@@ -12,7 +12,9 @@ const ProjectSchema = new mongoose.Schema(
     githubLink: { type: String },
     liveLink: { type: String },
     technologies: [{ type: String }],
-    features: [{ type: String }]
+    features: [{ type: String }],
+    views: { type: Number, default: 0 },
+    likes: { type: Number, default: 0 }
   },
   { timestamps: true }
 );

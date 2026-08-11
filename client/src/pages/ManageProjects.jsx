@@ -98,10 +98,10 @@ export default function ManageProjects() {
     setFormOpen(false);
   };
 
-  if (loading) return <div className="min-h-screen pt-32 flex justify-center"><Loader2 className="w-10 h-10 animate-spin text-primary" /></div>;
+  if (loading) return <div className="h-64 flex justify-center items-center"><Loader2 className="w-10 h-10 animate-spin text-primary" /></div>;
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-dark-900 pt-24 p-6 md:p-10 transition-colors duration-300">
+    <div className="w-full">
       <div className="max-w-7xl mx-auto space-y-8">
         
         {/* Header */}

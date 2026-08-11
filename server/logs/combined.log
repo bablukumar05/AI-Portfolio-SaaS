@@ -1,0 +1,316 @@
+[2026-06-17 17:58:23] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-17 17:58:56] INFO: ::1 - - [17/Jun/2026:12:28:56 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 17:58:56] INFO: ::1 - - [17/Jun/2026:12:28:56 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 17:58:56] INFO: ::1 - - [17/Jun/2026:12:28:56 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 17:58:56] INFO: ::1 - - [17/Jun/2026:12:28:56 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:15] INFO: ::1 - - [17/Jun/2026:12:41:15 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:16] INFO: ::1 - - [17/Jun/2026:12:41:16 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:22] INFO: ::1 - - [17/Jun/2026:12:41:22 +0000] "GET /api/blogs/future-of-web-dev-2026 HTTP/1.1" 200 637 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:22] INFO: ::1 - - [17/Jun/2026:12:41:22 +0000] "GET /api/blogs/future-of-web-dev-2026 HTTP/1.1" 200 637 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:22] INFO: ::1 - - [17/Jun/2026:12:41:22 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:22] INFO: ::1 - - [17/Jun/2026:12:41:22 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:30] INFO: ::1 - - [17/Jun/2026:12:41:30 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:30] INFO: ::1 - - [17/Jun/2026:12:41:30 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:37] INFO: ::1 - - [17/Jun/2026:12:41:37 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:37] INFO: ::1 - - [17/Jun/2026:12:41:37 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:37] INFO: ::1 - - [17/Jun/2026:12:41:37 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:11:37] INFO: ::1 - - [17/Jun/2026:12:41:37 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-17 18:13:45] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-17 18:13:48] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-17 18:14:01] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-17 18:14:04] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-17 18:14:06] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-18 08:09:43] INFO: ::1 - - [18/Jun/2026:02:39:43 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-18 08:09:43] INFO: ::1 - - [18/Jun/2026:02:39:43 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-18 08:09:43] INFO: ::1 - - [18/Jun/2026:02:39:43 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-18 08:09:43] INFO: ::1 - - [18/Jun/2026:02:39:43 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-18 08:12:42] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-18 08:22:42] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-18 08:23:32] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-18 08:25:57] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-18 08:27:01] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-18 08:27:58] INFO: ::1 - - [18/Jun/2026:02:57:58 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-18 08:27:58] INFO: ::1 - - [18/Jun/2026:02:57:58 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-18 08:27:58] INFO: ::1 - - [18/Jun/2026:02:57:58 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-18 08:27:58] INFO: ::1 - - [18/Jun/2026:02:57:58 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:25:42] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-22 10:26:11] INFO: ::1 - - [22/Jun/2026:04:56:11 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:26:11] INFO: ::1 - - [22/Jun/2026:04:56:11 +0000] "GET /api/projects HTTP/1.1" 200 6323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:26:11] INFO: ::1 - - [22/Jun/2026:04:56:11 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:26:11] INFO: ::1 - - [22/Jun/2026:04:56:11 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:26:59] INFO: ::1 - - [22/Jun/2026:04:56:59 +0000] "GET /api/dashboard HTTP/1.1" 401 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:26:59] INFO: ::1 - - [22/Jun/2026:04:56:59 +0000] "GET /api/dashboard HTTP/1.1" 401 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:03] INFO: ::1 - - [22/Jun/2026:04:57:03 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:03] INFO: ::1 - - [22/Jun/2026:04:57:03 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:03] INFO: ::1 - - [22/Jun/2026:04:57:03 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:03] INFO: ::1 - - [22/Jun/2026:04:57:03 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:05] INFO: ::1 - - [22/Jun/2026:04:57:05 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:05] INFO: ::1 - - [22/Jun/2026:04:57:05 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:17] INFO: ::1 - - [22/Jun/2026:04:57:17 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:17] INFO: ::1 - - [22/Jun/2026:04:57:17 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:17] INFO: ::1 - - [22/Jun/2026:04:57:17 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-22 10:27:17] INFO: ::1 - - [22/Jun/2026:04:57:17 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:03:33] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-24 08:04:31] INFO: ::1 - - [24/Jun/2026:02:34:31 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:04:32] INFO: ::1 - - [24/Jun/2026:02:34:32 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:04:32] INFO: ::1 - - [24/Jun/2026:02:34:32 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:04:32] INFO: ::1 - - [24/Jun/2026:02:34:32 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:08:30] WARN: Validation failed for /api/auth/login: "password" length must be at least 6 characters long
+[2026-06-24 08:08:30] INFO: ::1 - - [24/Jun/2026:02:38:30 +0000] "POST /api/auth/login HTTP/1.1" 400 114 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:08:48] WARN: Validation failed for /api/auth/login: "password" length must be at least 6 characters long
+[2026-06-24 08:08:48] INFO: ::1 - - [24/Jun/2026:02:38:48 +0000] "POST /api/auth/login HTTP/1.1" 400 114 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:10:04] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-24 08:10:28] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-24 08:14:42] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-24 08:15:22] INFO: ::1 - - [24/Jun/2026:02:45:22 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:15:22] INFO: ::1 - - [24/Jun/2026:02:45:22 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:15:22] INFO: ::1 - - [24/Jun/2026:02:45:22 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:15:22] INFO: ::1 - - [24/Jun/2026:02:45:22 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:17:18] WARN: Validation failed for /api/auth/login: "password" length must be at least 6 characters long
+[2026-06-24 08:17:18] INFO: ::1 - - [24/Jun/2026:02:47:18 +0000] "POST /api/auth/login HTTP/1.1" 400 114 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:19:17] INFO: ::1 - - [24/Jun/2026:02:49:17 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:19:17] INFO: ::1 - - [24/Jun/2026:02:49:17 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:19:17] INFO: ::1 - - [24/Jun/2026:02:49:17 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:19:17] INFO: ::1 - - [24/Jun/2026:02:49:17 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:21:27] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-24 08:27:21] INFO: ::1 - - [24/Jun/2026:02:57:21 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:27:21] INFO: ::1 - - [24/Jun/2026:02:57:21 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:27:21] INFO: ::1 - - [24/Jun/2026:02:57:21 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:27:21] INFO: ::1 - - [24/Jun/2026:02:57:21 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:27:51] INFO: ::1 - - [24/Jun/2026:02:57:51 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:27:51] INFO: ::1 - - [24/Jun/2026:02:57:51 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:27:51] INFO: ::1 - - [24/Jun/2026:02:57:51 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:27:51] INFO: ::1 - - [24/Jun/2026:02:57:51 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:11] INFO: ::1 - - [24/Jun/2026:03:03:11 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:11] INFO: ::1 - - [24/Jun/2026:03:03:11 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:11] INFO: ::1 - - [24/Jun/2026:03:03:11 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:11] INFO: ::1 - - [24/Jun/2026:03:03:11 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:14] INFO: ::1 - - [24/Jun/2026:03:03:14 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:14] INFO: ::1 - - [24/Jun/2026:03:03:14 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:14] INFO: ::1 - - [24/Jun/2026:03:03:14 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:33:14] INFO: ::1 - - [24/Jun/2026:03:03:14 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-24 08:40:04] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:32:03] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:32:25] INFO: ::1 - - [28/Jun/2026:04:02:25 +0000] "GET /api/projects HTTP/1.1" 200 6323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:32:26] INFO: ::1 - - [28/Jun/2026:04:02:26 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:32:26] INFO: ::1 - - [28/Jun/2026:04:02:26 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:32:26] INFO: ::1 - - [28/Jun/2026:04:02:26 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:32:28] INFO: ::1 - - [28/Jun/2026:04:02:28 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:32:28] INFO: ::1 - - [28/Jun/2026:04:02:28 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:32:28] INFO: ::1 - - [28/Jun/2026:04:02:28 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:32:28] INFO: ::1 - - [28/Jun/2026:04:02:28 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:09] INFO: ::1 - - [28/Jun/2026:04:03:09 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:09] INFO: ::1 - - [28/Jun/2026:04:03:09 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:25] INFO: ::1 - - [28/Jun/2026:04:03:25 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:25] INFO: ::1 - - [28/Jun/2026:04:03:25 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:25] INFO: ::1 - - [28/Jun/2026:04:03:25 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:25] INFO: ::1 - - [28/Jun/2026:04:03:25 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:33] INFO: ::1 - - [28/Jun/2026:04:03:33 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:33] INFO: ::1 - - [28/Jun/2026:04:03:33 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:33] INFO: ::1 - - [28/Jun/2026:04:03:33 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:33:33] INFO: ::1 - - [28/Jun/2026:04:03:33 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:34:19] INFO: ::1 - - [28/Jun/2026:04:04:19 +0000] "POST /api/auth/register HTTP/1.1" 400 45 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:34:25] INFO: ::1 - - [28/Jun/2026:04:04:25 +0000] "POST /api/auth/register HTTP/1.1" 400 45 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:34:40] INFO: ::1 - - [28/Jun/2026:04:04:40 +0000] "POST /api/auth/login HTTP/1.1" 400 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:34:52] INFO: ::1 - - [28/Jun/2026:04:04:52 +0000] "GET /api/auth/login HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:34:52] INFO: ::1 - - [28/Jun/2026:04:04:52 +0000] "GET /api/auth/login HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:35:34] INFO: ::1 - - [28/Jun/2026:04:05:34 +0000] "GET /api/auth/login HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:35:36] INFO: ::1 - - [28/Jun/2026:04:05:36 +0000] "GET /api/auth/login HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:39:56] ERROR: ERROR 💥 Expected property name or '}' in JSON at position 1 (line 1 column 2)
+[2026-06-28 09:40:34] ERROR: ERROR 💥 Expected property name or '}' in JSON at position 1 (line 1 column 2)
+[2026-06-28 09:41:00] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:41:21] INFO: ::1 - - [28/Jun/2026:04:11:21 +0000] "POST /api/auth/register HTTP/1.1" 400 45 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:41:37] ERROR: ERROR 💥 Failed to send verification email
+[2026-06-28 09:41:37] INFO: ::1 - - [28/Jun/2026:04:11:37 +0000] "POST /api/auth/register HTTP/1.1" 500 73 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-28 09:44:59] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:45:06] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:45:11] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:45:20] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:45:27] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:45:38] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:46:37] INFO: ::1 - - [28/Jun/2026:04:16:37 +0000] "POST /api/auth/register HTTP/1.1" 200 102 "-" "node"
+[2026-06-28 09:47:01] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:47:12] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:47:21] INFO: -----------------------------------------
+[2026-06-28 09:47:21] INFO: [DEV MODE] Verification OTP for dev_test_456@example.com: 798653
+[2026-06-28 09:47:21] INFO: -----------------------------------------
+[2026-06-28 09:47:21] INFO: ::1 - - [28/Jun/2026:04:17:21 +0000] "POST /api/auth/register HTTP/1.1" 200 102 "-" "node"
+[2026-06-28 09:47:31] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:47:36] INFO: ::1 - - [28/Jun/2026:04:17:36 +0000] "POST /api/auth/verify-otp HTTP/1.1" 200 239 "-" "node"
+[2026-06-28 09:47:47] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:47:54] INFO: ::1 - - [28/Jun/2026:04:17:54 +0000] "POST /api/auth/login HTTP/1.1" 200 183 "-" "node"
+[2026-06-28 09:48:00] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:48:07] WARN: Validation failed for /api/auth/register: "password" length must be at least 6 characters long
+[2026-06-28 09:48:07] INFO: ::1 - - [28/Jun/2026:04:18:07 +0000] "POST /api/auth/register HTTP/1.1" 400 148 "-" "node"
+[2026-06-28 09:48:19] INFO: 🚀 Server running on port 5000 in development mode
+[2026-06-28 09:50:48] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 09:39:48] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 09:40:08] INFO: ::1 - - [29/Jul/2026:04:10:08 +0000] "GET /api/projects HTTP/1.1" 200 6323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.130.0 Chrome/148.0.7778.280 Electron/42.6.0 Safari/537.36"
+[2026-07-29 09:40:08] INFO: ::1 - - [29/Jul/2026:04:10:08 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.130.0 Chrome/148.0.7778.280 Electron/42.6.0 Safari/537.36"
+[2026-07-29 09:40:08] INFO: ::1 - - [29/Jul/2026:04:10:08 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.130.0 Chrome/148.0.7778.280 Electron/42.6.0 Safari/537.36"
+[2026-07-29 09:40:08] INFO: ::1 - - [29/Jul/2026:04:10:08 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.130.0 Chrome/148.0.7778.280 Electron/42.6.0 Safari/537.36"
+[2026-07-29 09:40:39] INFO: ::1 - - [29/Jul/2026:04:10:39 +0000] "GET /api/projects HTTP/1.1" 200 6323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:40:39] INFO: ::1 - - [29/Jul/2026:04:10:39 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:40:39] INFO: ::1 - - [29/Jul/2026:04:10:39 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:40:39] INFO: ::1 - - [29/Jul/2026:04:10:39 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:41:44] INFO: -----------------------------------------
+[2026-07-29 09:41:44] INFO: [DEV MODE] Verification OTP for bablu@1gmail.com: 120326
+[2026-07-29 09:41:44] INFO: -----------------------------------------
+[2026-07-29 09:41:44] INFO: ::1 - - [29/Jul/2026:04:11:44 +0000] "POST /api/auth/register HTTP/1.1" 200 94 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:42:16] INFO: ::1 - - [29/Jul/2026:04:12:16 +0000] "POST /api/auth/register HTTP/1.1" 400 45 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:44:07] INFO: -----------------------------------------
+[2026-07-29 09:44:07] INFO: [DEV MODE] Verification OTP for as3635321@gmail.com: 889916
+[2026-07-29 09:44:07] INFO: -----------------------------------------
+[2026-07-29 09:44:07] INFO: ::1 - - [29/Jul/2026:04:14:07 +0000] "POST /api/auth/register HTTP/1.1" 200 97 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:30] INFO: ::1 - - [29/Jul/2026:04:15:30 +0000] "POST /api/auth/login HTTP/1.1" 400 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:45] INFO: ::1 - - [29/Jul/2026:04:15:45 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:45] INFO: ::1 - - [29/Jul/2026:04:15:45 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:46] INFO: ::1 - - [29/Jul/2026:04:15:46 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:46] INFO: ::1 - - [29/Jul/2026:04:15:46 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:51] INFO: ::1 - - [29/Jul/2026:04:15:51 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:51] INFO: ::1 - - [29/Jul/2026:04:15:51 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:51] INFO: ::1 - - [29/Jul/2026:04:15:51 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:51] INFO: ::1 - - [29/Jul/2026:04:15:51 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:58] INFO: ::1 - - [29/Jul/2026:04:15:58 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:58] INFO: ::1 - - [29/Jul/2026:04:15:58 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:58] INFO: ::1 - - [29/Jul/2026:04:15:58 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:45:58] INFO: ::1 - - [29/Jul/2026:04:15:58 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:46:25] INFO: ::1 - - [29/Jul/2026:04:16:25 +0000] "POST /api/auth/login HTTP/1.1" 400 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:52:30] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 09:52:38] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 09:56:36] INFO: ::1 - - [29/Jul/2026:04:26:36 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:56:48] INFO: ::1 - - [29/Jul/2026:04:26:48 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5175/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:56:48] INFO: ::1 - - [29/Jul/2026:04:26:48 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5175/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:56:48] INFO: ::1 - - [29/Jul/2026:04:26:48 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5175/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:56:48] INFO: ::1 - - [29/Jul/2026:04:26:48 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5175/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 09:56:58] INFO: ::1 - - [29/Jul/2026:04:26:58 +0000] "POST /api/auth/login HTTP/1.1" 401 29 "http://localhost:5175/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:13:08] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 10:13:12] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 10:13:18] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 10:13:21] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 10:16:45] INFO: ::1 - - [29/Jul/2026:04:46:45 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:16:45] INFO: ::1 - - [29/Jul/2026:04:46:45 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:16:45] INFO: ::1 - - [29/Jul/2026:04:46:45 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:16:45] INFO: ::1 - - [29/Jul/2026:04:46:45 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:17:01] INFO: -----------------------------------------
+[2026-07-29 10:17:01] INFO: [DEV MODE] Password Reset OTP for kumarbablu74824@gmail.com: 459342
+[2026-07-29 10:17:01] INFO: -----------------------------------------
+[2026-07-29 10:17:01] INFO: ::1 - - [29/Jul/2026:04:47:01 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 48 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:18:04] INFO: -----------------------------------------
+[2026-07-29 10:18:04] INFO: [DEV MODE] Password Reset OTP for kumarbablu74824@gmail.com: 392466
+[2026-07-29 10:18:04] INFO: -----------------------------------------
+[2026-07-29 10:18:04] INFO: ::1 - - [29/Jul/2026:04:48:04 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 48 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:19:45] INFO: ::1 - - [29/Jul/2026:04:49:45 +0000] "POST /api/auth/reset-password HTTP/1.1" 200 80 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:19:59] INFO: ::1 - - [29/Jul/2026:04:49:59 +0000] "POST /api/auth/login HTTP/1.1" 403 82 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:21:36] INFO: -----------------------------------------
+[2026-07-29 10:21:36] INFO: [DEV MODE] Verification OTP for kumarbablu74824@gmail.com: 706220
+[2026-07-29 10:21:36] INFO: -----------------------------------------
+[2026-07-29 10:21:36] INFO: ::1 - - [29/Jul/2026:04:51:36 +0000] "POST /api/auth/resend-otp HTTP/1.1" 200 37 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:21:54] INFO: ::1 - - [29/Jul/2026:04:51:54 +0000] "POST /api/auth/verify-otp HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:21:55] INFO: ::1 - - [29/Jul/2026:04:51:55 +0000] "GET /api/dashboard HTTP/1.1" 200 1020 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:21:55] INFO: ::1 - - [29/Jul/2026:04:51:55 +0000] "GET /api/dashboard HTTP/1.1" 200 1022 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:15] INFO: ::1 - - [29/Jul/2026:04:52:15 +0000] "GET /api/dashboard HTTP/1.1" 200 1020 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:15] INFO: ::1 - - [29/Jul/2026:04:52:15 +0000] "GET /api/dashboard HTTP/1.1" 200 1018 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:17] INFO: ::1 - - [29/Jul/2026:04:52:17 +0000] "GET /api/dashboard HTTP/1.1" 200 1020 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:17] INFO: ::1 - - [29/Jul/2026:04:52:17 +0000] "GET /api/dashboard HTTP/1.1" 200 1018 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:19] INFO: ::1 - - [29/Jul/2026:04:52:19 +0000] "GET /api/dashboard HTTP/1.1" 200 1020 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:19] INFO: ::1 - - [29/Jul/2026:04:52:19 +0000] "GET /api/dashboard HTTP/1.1" 200 1022 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:20] INFO: ::1 - - [29/Jul/2026:04:52:20 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:20] INFO: ::1 - - [29/Jul/2026:04:52:20 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:20] INFO: ::1 - - [29/Jul/2026:04:52:20 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:20] INFO: ::1 - - [29/Jul/2026:04:52:20 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:27] INFO: ::1 - - [29/Jul/2026:04:52:27 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:22:27] INFO: ::1 - - [29/Jul/2026:04:52:27 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:11] INFO: ::1 - - [29/Jul/2026:04:53:11 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:11] INFO: ::1 - - [29/Jul/2026:04:53:11 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:11] INFO: ::1 - - [29/Jul/2026:04:53:11 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:11] INFO: ::1 - - [29/Jul/2026:04:53:11 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:15] INFO: ::1 - - [29/Jul/2026:04:53:15 +0000] "GET /api/dashboard HTTP/1.1" 200 1020 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:15] INFO: ::1 - - [29/Jul/2026:04:53:15 +0000] "GET /api/dashboard HTTP/1.1" 200 1021 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:26] INFO: ::1 - - [29/Jul/2026:04:53:26 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:26] INFO: ::1 - - [29/Jul/2026:04:53:26 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:36] INFO: ::1 - - [29/Jul/2026:04:53:36 +0000] "GET /api/dashboard HTTP/1.1" 200 1020 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:36] INFO: ::1 - - [29/Jul/2026:04:53:36 +0000] "GET /api/dashboard HTTP/1.1" 200 1021 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:40] INFO: ::1 - - [29/Jul/2026:04:53:40 +0000] "GET /api/portfolio HTTP/1.1" 200 4 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:23:40] INFO: ::1 - - [29/Jul/2026:04:53:40 +0000] "GET /api/portfolio HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:29:09] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 10:29:35] INFO: ::1 - - [29/Jul/2026:04:59:35 +0000] "GET /health HTTP/1.1" 404 145 "-" "node"
+[2026-07-29 10:30:34] INFO: ::1 - - [29/Jul/2026:05:00:34 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:34] INFO: ::1 - - [29/Jul/2026:05:00:34 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:34] INFO: ::1 - - [29/Jul/2026:05:00:34 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:34] INFO: ::1 - - [29/Jul/2026:05:00:34 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:37] INFO: ::1 - - [29/Jul/2026:05:00:37 +0000] "GET /api/dashboard HTTP/1.1" 200 1021 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:37] INFO: ::1 - - [29/Jul/2026:05:00:37 +0000] "GET /api/dashboard HTTP/1.1" 200 1022 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:39] INFO: ::1 - - [29/Jul/2026:05:00:39 +0000] "GET /api/portfolio HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:39] INFO: ::1 - - [29/Jul/2026:05:00:39 +0000] "GET /api/portfolio HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:43] INFO: ::1 - - [29/Jul/2026:05:00:43 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:43] INFO: ::1 - - [29/Jul/2026:05:00:43 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:50] INFO: ::1 - - [29/Jul/2026:05:00:50 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:50] INFO: ::1 - - [29/Jul/2026:05:00:50 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:56] INFO: ::1 - - [29/Jul/2026:05:00:56 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:56] INFO: ::1 - - [29/Jul/2026:05:00:56 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:59] INFO: ::1 - - [29/Jul/2026:05:00:59 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:30:59] INFO: ::1 - - [29/Jul/2026:05:00:59 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:32:04] INFO: ::1 - - [29/Jul/2026:05:02:04 +0000] "POST /api/blogs/generate HTTP/1.1" 500 80 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 10:47:16] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 11:06:47] WARN: Validation failed for /api/auth/login: "password" length must be at least 6 characters long
+[2026-07-29 11:06:47] INFO: ::1 - - [29/Jul/2026:05:36:47 +0000] "POST /api/auth/login HTTP/1.1" 400 148 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.130.0 Chrome/148.0.7778.280 Electron/42.6.0 Safari/537.36"
+[2026-07-29 11:07:17] INFO: ::1 - - [29/Jul/2026:05:37:17 +0000] "GET /api/auth/me HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 11:07:17] INFO: ::1 - - [29/Jul/2026:05:37:17 +0000] "GET /api/auth/me HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 11:07:30] WARN: Validation failed for /api/auth/login: "password" length must be at least 6 characters long
+[2026-07-29 11:07:30] INFO: ::1 - - [29/Jul/2026:05:37:30 +0000] "POST /api/auth/login HTTP/1.1" 400 148 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 11:07:48] INFO: ::1 - - [29/Jul/2026:05:37:48 +0000] "POST /api/auth/forgotpassword HTTP/1.1" 404 163 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 12:58:28] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 12:58:52] INFO: ::1 - - [29/Jul/2026:07:28:52 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "-" "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-IN) PowerShell/7.6.4"
+[2026-07-29 12:59:31] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 13:00:55] INFO: ::1 - - [29/Jul/2026:07:30:55 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:01:09] INFO: ::1 - - [29/Jul/2026:07:31:09 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:01:16] INFO: ::1 - - [29/Jul/2026:07:31:16 +0000] "GET /api/projects HTTP/1.1" 200 6323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:01:16] INFO: ::1 - - [29/Jul/2026:07:31:16 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:01:16] INFO: ::1 - - [29/Jul/2026:07:31:16 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:01:16] INFO: ::1 - - [29/Jul/2026:07:31:16 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:04:15] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 13:05:24] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 13:08:34] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 13:09:09] INFO: ::1 - - [29/Jul/2026:07:39:09 +0000] "GET /api/health HTTP/1.1" 200 121 "-" "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-IN) PowerShell/7.6.4"
+[2026-07-29 13:09:24] INFO: ::1 - - [29/Jul/2026:07:39:24 +0000] "GET /api/projects HTTP/1.1" 200 6323 "-" "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-IN) PowerShell/7.6.4"
+[2026-07-29 13:11:21] INFO: ::1 - - [29/Jul/2026:07:41:21 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:11:35] INFO: ::1 - - [29/Jul/2026:07:41:35 +0000] "GET /api/projects HTTP/1.1" 200 6323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:11:35] INFO: ::1 - - [29/Jul/2026:07:41:35 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:11:35] INFO: ::1 - - [29/Jul/2026:07:41:35 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:11:35] INFO: ::1 - - [29/Jul/2026:07:41:35 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:08] INFO: ::1 - - [29/Jul/2026:07:43:08 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:08] INFO: ::1 - - [29/Jul/2026:07:43:08 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:08] INFO: ::1 - - [29/Jul/2026:07:43:08 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:08] INFO: ::1 - - [29/Jul/2026:07:43:08 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:16] INFO: ::1 - - [29/Jul/2026:07:43:16 +0000] "POST /api/auth/login HTTP/1.1" 200 183 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:17] INFO: ::1 - - [29/Jul/2026:07:43:17 +0000] "GET /api/dashboard HTTP/1.1" 200 1173 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:17] INFO: ::1 - - [29/Jul/2026:07:43:17 +0000] "GET /api/dashboard HTTP/1.1" 200 1172 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:21] INFO: ::1 - - [29/Jul/2026:07:43:21 +0000] "GET /api/portfolio HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:21] INFO: ::1 - - [29/Jul/2026:07:43:21 +0000] "GET /api/portfolio HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:24] INFO: ::1 - - [29/Jul/2026:07:43:24 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:24] INFO: ::1 - - [29/Jul/2026:07:43:24 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:29] INFO: ::1 - - [29/Jul/2026:07:43:29 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:29] INFO: ::1 - - [29/Jul/2026:07:43:29 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:13:34] INFO: ::1 - - [29/Jul/2026:07:43:34 +0000] "DELETE /api/blogs/6a69ad2143b5d51119cd41f7 HTTP/1.1" 404 40 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-07-29 13:16:39] INFO: 🚀 Server running on port 5000 in development mode
+[2026-07-29 13:17:19] INFO: ::1 - - [29/Jul/2026:07:47:19 +0000] "GET / HTTP/1.1" 200 315 "-" "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-IN) PowerShell/7.6.4"
+[2026-07-29 13:18:04] INFO: ::1 - - [29/Jul/2026:07:48:04 +0000] "DELETE /api/blogs/6a69ad2143b5d51119cd41f7 HTTP/1.1" 404 40 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+[2026-08-11 07:53:46] INFO: 🚀 Server running on port 5000 in development mode
+[2026-08-11 07:54:15] INFO: ::1 - - [11/Aug/2026:02:24:15 +0000] "GET /api/projects HTTP/1.1" 200 6323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:54:15] INFO: ::1 - - [11/Aug/2026:02:24:15 +0000] "GET /api/blogs HTTP/1.1" 200 5851 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:54:15] INFO: ::1 - - [11/Aug/2026:02:24:15 +0000] "GET /api/projects HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:54:15] INFO: ::1 - - [11/Aug/2026:02:24:15 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:54:38] INFO: ::1 - - [11/Aug/2026:02:24:38 +0000] "GET /api/dashboard HTTP/1.1" 401 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:54:38] INFO: ::1 - - [11/Aug/2026:02:24:38 +0000] "GET /api/dashboard HTTP/1.1" 401 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:00] INFO: ::1 - - [11/Aug/2026:02:25:00 +0000] "POST /api/auth/login HTTP/1.1" 401 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:11] INFO: ::1 - - [11/Aug/2026:02:25:11 +0000] "POST /api/auth/login HTTP/1.1" 200 183 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:12] INFO: ::1 - - [11/Aug/2026:02:25:12 +0000] "GET /api/dashboard HTTP/1.1" 200 1321 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:12] INFO: ::1 - - [11/Aug/2026:02:25:12 +0000] "GET /api/dashboard HTTP/1.1" 200 1320 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:19] INFO: ::1 - - [11/Aug/2026:02:25:19 +0000] "GET /api/portfolio HTTP/1.1" 200 4 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:19] INFO: ::1 - - [11/Aug/2026:02:25:19 +0000] "GET /api/portfolio HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:23] INFO: ::1 - - [11/Aug/2026:02:25:23 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:23] INFO: ::1 - - [11/Aug/2026:02:25:23 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:30] INFO: ::1 - - [11/Aug/2026:02:25:30 +0000] "GET /api/dashboard HTTP/1.1" 200 1318 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:30] INFO: ::1 - - [11/Aug/2026:02:25:30 +0000] "GET /api/dashboard HTTP/1.1" 200 1323 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+[2026-08-11 07:55:33] INFO: ::1 - - [11/Aug/2026:02:25:33 +0000] "POST /api/payment/order HTTP/1.1" 404 157 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"

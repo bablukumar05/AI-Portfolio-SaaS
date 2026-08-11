@@ -6,12 +6,12 @@ export default {
     extend: {
       colors: {
         dark: {
-          900: "#0b0c10", // deepest background
-          800: "#1f2833", // surface background
+          900: "rgb(var(--color-dark-900) / <alpha-value>)", // deepest background
+          800: "rgb(var(--color-dark-800) / <alpha-value>)", // surface background
         },
-        primary: "#66fcf1", // cyan accent
-        secondary: "#45a29e", // muted cyan
-        textMuted: "#c5c6c7", // gray text
+        primary: "rgb(var(--color-primary) / <alpha-value>)", // accent
+        secondary: "rgb(var(--color-secondary) / <alpha-value>)", // muted accent
+        textMuted: "rgb(var(--color-text-muted) / <alpha-value>)", // gray text
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],

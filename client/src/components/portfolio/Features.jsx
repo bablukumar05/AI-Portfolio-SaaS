@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 
-export default function Features() {
+export default function Features({ data = {} }) {
+  const {
+    subtitle = "Platform Highlights",
+    title = "Why Choose Our <span class='text-gradient'>Engine</span>"
+  } = data;
+
   const features = [
     {
       title: "AI-Powered Generation",
@@ -26,11 +31,11 @@ export default function Features() {
   ];
 
   return (
-    <section id="features" className="py-24 px-6 relative z-10 bg-dark-900 border-t border-b border-white/5">
+    <section id="features" className="py-24 px-6 relative z-10 bg-slate-50 dark:bg-dark-900 border-t border-b border-slate-200 dark:border-white/5 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-           <h2 className="text-sm uppercase tracking-widest text-primary mb-3 font-semibold">Platform Highlights</h2>
-           <h3 className="font-heading text-3xl md:text-5xl font-bold text-white">Why Choose Our <span className="text-gradient">Engine</span></h3>
+           <h2 className="text-sm uppercase tracking-widest text-primary mb-3 font-semibold">{subtitle}</h2>
+           <h3 className="font-heading text-3xl md:text-5xl font-bold text-slate-900 dark:text-white" dangerouslySetInnerHTML={{ __html: title }}></h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -41,13 +46,13 @@ export default function Features() {
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
                transition={{ duration: 0.5, delay: idx * 0.1 }}
-               className="glass-card p-8 rounded-2xl border border-white/5 hover:border-primary/50 transition-all duration-300 group"
+               className="bg-white dark:bg-dark-800/40 p-8 rounded-2xl border border-slate-200 dark:border-white/5 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 group shadow-sm hover:shadow-md"
              >
-                <div className="w-16 h-16 rounded-2xl bg-dark-800 border border-white/10 flex items-center justify-center mb-6 group-hover:-translate-y-2 transition-transform duration-300">
+                <div className="w-16 h-16 rounded-2xl bg-slate-100 dark:bg-dark-800 border border-slate-200 dark:border-white/10 flex items-center justify-center mb-6 group-hover:-translate-y-2 transition-transform duration-300">
                   {item.icon}
                 </div>
-                <h4 className="text-xl font-bold text-white mb-4">{item.title}</h4>
-                <p className="text-textMuted leading-relaxed">{item.description}</p>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-4">{item.title}</h4>
+                <p className="text-slate-600 dark:text-textMuted leading-relaxed">{item.description}</p>
              </motion.div>
           ))}
         </div>

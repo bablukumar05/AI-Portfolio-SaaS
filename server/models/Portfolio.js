@@ -9,10 +9,26 @@ const SectionSchema = new mongoose.Schema({
 const PortfolioSchema = new mongoose.Schema(
   {
     userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+    workspaceId: { type: mongoose.Schema.Types.ObjectId, ref: "Workspace" },
     title: { type: String, default: "My Portfolio" },
     domain: { type: String, unique: true, sparse: true },
-    theme: { type: String, default: "dark" },
+    design: {
+      theme: { type: String, default: "cyberpunk" },
+      font: { type: String, default: "Inter" }
+    },
     sections: [SectionSchema],
+    status: { type: String, enum: ["draft", "published"], default: "draft" },
+    publishedAt: { type: Date },
+    subdomain: { type: String, unique: true, sparse: true },
+    customDomain: { type: String, unique: true, sparse: true },
+    isFeatured: { type: Boolean, default: false },
+    showcaseTags: [{ type: String }],
+    views: { type: Number, default: 0 },
+    seoSettings: {
+      title: { type: String },
+      description: { type: String },
+      keywords: { type: String }
+    }
   },
   { timestamps: true }
 );

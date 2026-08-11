@@ -14,7 +14,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <ThemeProvider>
         <AuthProvider>
           <App />
-          <Toaster position="top-right" />
+          <Toaster 
+            position="top-right" 
+            toastOptions={{
+              className: 'dark:bg-dark-800 dark:text-white bg-white text-slate-900 border border-slate-200 dark:border-white/10 shadow-lg',
+              success: { iconTheme: { primary: '#66fcf1', secondary: '#0b0c10' } },
+              error: { iconTheme: { primary: '#ef4444', secondary: '#fff' } }
+            }}
+          />
         </AuthProvider>
       </ThemeProvider>
     </HelmetProvider>

@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 
-export default function Skills() {
+export default function Skills({ data = {} }) {
+  const {
+    subtitle = "Technical Expertise",
+    title = "My <span class='text-gradient'>Skills</span>"
+  } = data;
+
   const skillCategories = [
     {
       title: "Frontend Development",
@@ -17,11 +22,11 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 px-6 relative z-10 bg-dark-900 border-t border-b border-white/5">
+    <section id="skills" className="py-24 px-6 relative z-10 bg-white dark:bg-dark-900 border-t border-b border-slate-100 dark:border-white/5 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-           <h2 className="text-sm uppercase tracking-widest text-primary mb-3 font-semibold">Technical Expertise</h2>
-           <h3 className="font-heading text-3xl md:text-5xl font-bold text-white">My <span className="text-gradient">Skills</span></h3>
+           <h2 className="text-sm uppercase tracking-widest text-primary mb-3 font-semibold">{subtitle}</h2>
+           <h3 className="font-heading text-3xl md:text-5xl font-bold text-slate-900 dark:text-white" dangerouslySetInnerHTML={{ __html: title }}></h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -32,20 +37,20 @@ export default function Skills() {
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
                transition={{ duration: 0.5, delay: idx * 0.1 }}
-               className="glass-card p-8 rounded-2xl border border-white/5 hover:border-secondary/50 transition-all duration-300 group"
+               className="bg-slate-50 dark:bg-dark-800/40 p-8 rounded-2xl border border-slate-200 dark:border-white/5 hover:border-secondary/50 dark:hover:border-secondary/50 transition-all duration-300 group shadow-sm hover:shadow-md"
              >
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-full bg-dark-800 border border-white/10 flex items-center justify-center text-secondary group-hover:bg-secondary/20 transition-colors">
+                  <div className="w-12 h-12 rounded-full bg-white dark:bg-dark-800 border border-slate-200 dark:border-white/10 flex items-center justify-center text-secondary group-hover:bg-secondary/10 dark:group-hover:bg-secondary/20 transition-colors">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                   </div>
-                  <h4 className="text-xl font-bold text-white">{category.title}</h4>
+                  <h4 className="text-xl font-bold text-slate-900 dark:text-white">{category.title}</h4>
                 </div>
                 
                 <div className="flex flex-wrap gap-3">
                   {category.skills.map((skill, sIdx) => (
                     <span 
                       key={sIdx} 
-                      className="px-4 py-2 bg-dark-800 border border-white/5 text-sm font-medium text-textMuted rounded-full group-hover:border-secondary/30 group-hover:text-white transition-colors cursor-default"
+                      className="px-4 py-2 bg-white dark:bg-dark-800 border border-slate-200 dark:border-white/5 text-sm font-medium text-slate-700 dark:text-textMuted rounded-full group-hover:border-secondary/50 dark:group-hover:border-secondary/30 group-hover:text-slate-900 dark:group-hover:text-white transition-colors cursor-default"
                     >
                       {skill}
                     </span>

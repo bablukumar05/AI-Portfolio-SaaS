@@ -2,13 +2,15 @@ import { motion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect, useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
-import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { ThemeContext } from "../../context/ThemeContext";
+import { HiMenuAlt3, HiX, HiSun, HiMoon } from "react-icons/hi";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
   const { token, logout } = useContext(AuthContext);
+  const { theme, toggleTheme } = useContext(ThemeContext);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -32,7 +34,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-heading font-black tracking-tighter text-white">
+        <Link to="/" className="text-2xl font-heading font-black tracking-tighter text-slate-900 dark:text-white">
           Portify  <span className="text-primary">AI</span>
         </Link>
 
@@ -65,19 +67,34 @@ export default function Navbar() {
               Logout
             </button>
           ) : (
-            <Link to="/login" className="px-5 py-2 glass rounded-full text-sm font-medium hover:bg-white/10 transition-colors">
+            <Link to="/login" className="px-5 py-2 glass text-slate-800 dark:text-white rounded-full text-sm font-medium hover:bg-black/5 dark:hover:bg-white/10 transition-colors">
               Login
             </Link>
           )}
+          
+          <button 
+            onClick={toggleTheme} 
+            className="p-2 glass rounded-full text-slate-800 dark:text-white hover:text-primary transition-colors"
+          >
+            {theme === "dark" ? <HiSun size={20} /> : <HiMoon size={20} />}
+          </button>
         </div>
 
         {/* Mobile Toggle */}
-        <button
-          className="md:hidden text-white p-2"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        >
-          {mobileMenuOpen ? <HiX size={24} /> : <HiMenuAlt3 size={24} />}
-        </button>
+        <div className="flex md:hidden items-center gap-4">
+          <button 
+            onClick={toggleTheme} 
+            className="text-slate-800 dark:text-white hover:text-primary transition-colors"
+          >
+            {theme === "dark" ? <HiSun size={24} /> : <HiMoon size={24} />}
+          </button>
+          <button
+            className="text-slate-800 dark:text-white p-2"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? <HiX size={24} /> : <HiMenuAlt3 size={24} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Nav */}
@@ -94,7 +111,7 @@ export default function Navbar() {
                   key={link.name}
                   href={link.path}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-lg font-medium text-textMuted hover:text-white"
+                  className="text-lg font-medium text-slate-600 dark:text-textMuted hover:text-primary dark:hover:text-white"
                 >
                   {link.name}
                 </a>
@@ -103,7 +120,7 @@ export default function Navbar() {
                   key={link.name}
                   to={link.path}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-lg font-medium text-textMuted hover:text-white"
+                  className="text-lg font-medium text-slate-600 dark:text-textMuted hover:text-primary dark:hover:text-white"
                 >
                   {link.name}
                 </Link>
@@ -118,7 +135,7 @@ export default function Navbar() {
                 Logout
               </button>
             ) : (
-              <Link to="/login" className="text-lg text-white" onClick={() => setMobileMenuOpen(false)}>Login</Link>
+              <Link to="/login" className="text-lg text-slate-900 dark:text-white" onClick={() => setMobileMenuOpen(false)}>Login</Link>
             )}
           </div>
         </motion.div>
