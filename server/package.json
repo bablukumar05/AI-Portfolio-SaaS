@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install --force",
+    "build": "node clean-build.js",
     "dev": "nodemon server.js",
     "start": "node server.js"
   },

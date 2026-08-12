@@ -3,7 +3,7 @@ services:
     name: ai-portfolio-saas-server
     runtime: node
     rootDir: server
-    buildCommand: npm install
+    buildCommand: npm run build
     startCommand: node server.js
     healthCheckPath: /api/health
     envVars:
