@@ -100,8 +100,13 @@ app.use("/api/showcase", showcaseRoutes);
 const errorHandler = require("./middleware/errorMiddleware");
 app.use(errorHandler);
 
+// Render Recommended Timeout Configurations
+server.keepAliveTimeout = 120000;
+server.headersTimeout = 120500;
+
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => logger.info(`🚀 Server running on port ${PORT} in ${process.env.NODE_ENV || 'development'} mode`));
+const HOST = "0.0.0.0";
+server.listen(PORT, HOST, () => logger.info(`🚀 Server running on http://${HOST}:${PORT} in ${process.env.NODE_ENV || 'development'} mode`));
 
 // Graceful Shutdown
 process.on("SIGTERM", () => {
