@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
 const helmet = require("helmet");
+const compression = require("compression");
 const path = require("path");
 require("dotenv").config({ path: path.join(__dirname, ".env") });
 
@@ -29,6 +30,7 @@ socket.init(server);
 connectDB();
 
 app.use(helmet()); // Security Headers
+app.use(compression()); // Gzip/Brotli response compression for instant delivery
 app.use(cors());
 app.use(express.json());
 app.use(morgan("combined", { stream: { write: (message) => logger.info(message.trim()) } }));

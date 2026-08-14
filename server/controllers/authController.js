@@ -86,7 +86,7 @@ exports.verifyOTP = async (req, res, next) => {
 
     res.json({
       msg: "Email verified successfully. You can now login.",
-      token: generateToken(user._id)
+      token: generateToken(user._id, user.role)
     });
   } catch (err) {
     next(err);
@@ -177,7 +177,7 @@ exports.login = async (req, res, next) => {
     await user.save();
 
     await logActivity(user._id, "User Login", "Auth", user._id, "User logged into the system.");
-    res.json({ token: generateToken(user._id) });
+    res.json({ token: generateToken(user._id, user.role) });
   } catch (err) { next(err); }
 };
 
@@ -192,7 +192,7 @@ exports.verify2FALogin = async (req, res, next) => {
     user.lastLogin = new Date();
     await user.save();
 
-    res.json({ token: generateToken(user._id) });
+    res.json({ token: generateToken(user._id, user.role) });
   } catch (err) { next(err); }
 };
 

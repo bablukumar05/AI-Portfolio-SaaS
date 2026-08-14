@@ -25,4 +25,7 @@ const BlogSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+BlogSchema.index({ userId: 1, createdAt: -1 });
+BlogSchema.index({ category: 1, createdAt: -1 });
+
 module.exports = mongoose.model("Blog", BlogSchema);

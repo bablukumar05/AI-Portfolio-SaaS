@@ -15,8 +15,8 @@ export default function BlogPreview({ data = {} }) {
   useEffect(() => {
     getBlogs()
       .then(res => {
-        // Only grab the latest 3 published blogs
-        const publishedBlogs = res.data.filter(b => b.status === 'Published');
+        // Grab the latest 3 blogs
+        const publishedBlogs = res.data.filter(b => !b.status || b.status === 'Published');
         setBlogs(publishedBlogs.slice(0, 3));
       })
       .catch(() => console.log("Error fetching blogs for preview"));

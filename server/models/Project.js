@@ -19,4 +19,8 @@ const ProjectSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+ProjectSchema.index({ userId: 1, createdAt: -1 });
+ProjectSchema.index({ category: 1, featured: -1 });
+ProjectSchema.index({ createdAt: -1 });
+
 module.exports = mongoose.model("Project", ProjectSchema);

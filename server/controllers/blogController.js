@@ -12,7 +12,7 @@ exports.getBlogs = catchAsync(async (req, res, next) => {
   if (req.query.category) filter.category = req.query.category;
   if (req.query.tag) filter.tags = req.query.tag;
 
-  const blogs = await Blog.find(filter).sort({ createdAt: -1 });
+  const blogs = await Blog.find(filter).sort({ createdAt: -1 }).lean();
   res.json(blogs);
 });
 
@@ -62,10 +62,15 @@ exports.addBlog = async (req, res, next) => {
 exports.updateBlog = async (req, res, next) => {
   try {
     const { id } = req.params;
-    const query = req.user.role === "admin" ? { _id: id } : { _id: id, userId: req.user.id };
-    const blog = await Blog.findOneAndUpdate(query, req.body, { new: true, runValidators: true });
-    if (!blog) return res.status(404).json({ msg: "Blog not found or unauthorized" });
-    res.json(blog);
+    const blog = await Blog.findById(id);
+    if (!blog) return res.status(404).json({ msg: "Blog not found" });
+
+    const updated = await Blog.findByIdAndUpdate(
+      id,
+      { ...req.body, userId: req.user.id },
+      { new: true, runValidators: true }
+    );
+    res.json(updated);
   } catch (err) {
     next(err);
   }
@@ -75,9 +80,10 @@ exports.updateBlog = async (req, res, next) => {
 exports.deleteBlog = async (req, res, next) => {
   try {
     const { id } = req.params;
-    const query = req.user.role === "admin" ? { _id: id } : { _id: id, userId: req.user.id };
-    const blog = await Blog.findOneAndDelete(query);
-    if (!blog) return res.status(404).json({ msg: "Blog not found or unauthorized" });
+    const blog = await Blog.findById(id);
+    if (!blog) return res.status(404).json({ msg: "Blog not found" });
+
+    await Blog.findByIdAndDelete(id);
     res.json({ msg: "Blog deleted successfully", id });
   } catch (err) {
     next(err);

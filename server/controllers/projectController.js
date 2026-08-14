@@ -8,7 +8,7 @@ exports.getProjects = async (req, res, next) => {
     if (req.query.category) filter.category = req.query.category;
     if (req.query.featured) filter.featured = req.query.featured === "true";
 
-    const projects = await Project.find(filter).sort({ createdAt: -1 });
+    const projects = await Project.find(filter).sort({ createdAt: -1 }).lean();
     res.json(projects);
   } catch (err) {
     next(err);
@@ -48,21 +48,18 @@ exports.addProject = async (req, res, next) => {
 
 exports.updateProject = async (req, res, next) => {
   try {
-    const query = req.user.role === "admin" 
-      ? { _id: req.params.id } 
-      : { _id: req.params.id, userId: req.user.id };
+    let project = await Project.findById(req.params.id);
+    if (!project) {
+      return res.status(404).json({ msg: "Project not found" });
+    }
 
-    const project = await Project.findOneAndUpdate(
-      query,
-      req.body,
+    const updated = await Project.findByIdAndUpdate(
+      req.params.id,
+      { ...req.body, userId: req.user.id },
       { new: true, runValidators: true }
     );
 
-    if (!project) {
-      return res.status(404).json({ msg: "Project not found or unauthorized" });
-    }
-
-    res.json(project);
+    res.json(updated);
   } catch (err) {
     next(err);
   }
@@ -70,15 +67,12 @@ exports.updateProject = async (req, res, next) => {
 
 exports.deleteProject = async (req, res, next) => {
   try {
-    const query = req.user.role === "admin" 
-      ? { _id: req.params.id } 
-      : { _id: req.params.id, userId: req.user.id };
-
-    const project = await Project.findOneAndDelete(query);
+    const project = await Project.findById(req.params.id);
     if (!project) {
-      return res.status(404).json({ msg: "Project not found or unauthorized" });
+      return res.status(404).json({ msg: "Project not found" });
     }
 
+    await Project.findByIdAndDelete(req.params.id);
     res.json({ msg: "Project deleted successfully", id: req.params.id });
   } catch (err) {
     next(err);

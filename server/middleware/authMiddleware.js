@@ -1,6 +1,7 @@
 const jwt = require("jsonwebtoken");
+const User = require("../models/User");
 
-module.exports = (req, res, next) => {
+module.exports = async (req, res, next) => {
   let token = req.header("Authorization");
 
   if (!token) return res.status(401).json({ msg: "No token provided" });
@@ -12,6 +13,10 @@ module.exports = (req, res, next) => {
 
   try {
     const verified = jwt.verify(token, process.env.JWT_SECRET);
+    if (!verified.role && verified.id) {
+      const u = await User.findById(verified.id).select("role").lean();
+      if (u) verified.role = u.role || "user";
+    }
     req.user = verified;
     next();
   } catch (err) {

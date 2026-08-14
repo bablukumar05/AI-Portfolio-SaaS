@@ -1,4 +1,0 @@
-Γä╣∩╕Å Redis is disabled. Set REDIS_ENABLED=true in .env to enable caching.
-Γä╣∩╕Å BullMQ is disabled (REDIS_ENABLED != true). Background tasks will skip the queue.
-[2026-06-18 08:23:32] [32minfo[39m: ≡ƒÜÇ Server running on port 5000 in development mode
-DB Connected
